@@ -1,1 +1,0 @@
-console.log("Test-JavaScript-Datei wurde erfolgreich geladen!");
