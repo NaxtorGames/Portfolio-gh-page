@@ -172,6 +172,43 @@ main[b-zdscgksyd7] {
     overflow-y: auto;
   }
 }
+/* /Pages/Quiz.razor.rz.scp.css */
+body[b-p3l66w4kv4] {
+}
+
+.question-image[b-p3l66w4kv4] {
+    height: 100px;
+}
+
+.quiz-btn[b-p3l66w4kv4] {
+    padding: 0.5rem;
+    margin: 0.2rem 0rem;
+    border-style: none;
+    border-radius: 0.5rem;
+    display: inline-block;
+    width: 500px;
+}
+
+.neutral-answer-button:hover[b-p3l66w4kv4] {
+    outline: solid 0.1rem white;
+}
+
+.correct-answer-button[b-p3l66w4kv4] {
+    background-color: mediumseagreen;
+    text-shadow: 0.05rem 0.05rem rgba(10,10,10,33%);
+    cursor: default;
+}
+
+.wrong-answer-button[b-p3l66w4kv4] {
+    background-color: indianred;
+    cursor: default;
+}
+
+.selected-answer-button[b-p3l66w4kv4] {
+    background-color: darkred;
+    outline: solid 0.1rem white;
+    cursor: default;
+}
 /* /Pages/TicTacToe.razor.rz.scp.css */
 p[b-18d0fa3f1o] {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

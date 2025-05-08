@@ -1,0 +1,35 @@
+﻿[
+  {
+    "ImageURL": "",
+    "Question": "Was ist die Hauptstadt von Deutschland?",
+    "Answers": [
+      "Berlin",
+      "München",
+      "Hamburg",
+      "Köln"
+    ],
+    "AnswerIndex": 0
+  },
+  {
+    "ImageURL": "",
+    "Question": "Welches Element hat das chemische Symbol 'O'?",
+    "Answers": [
+      "Gold",
+      "Oxygen",
+      "Silber",
+      "Eisen"
+    ],
+    "AnswerIndex": 1
+  },
+  {
+    "ImageURL": "",
+    "Question": "Welcher Planet ist der größte im Sonnensystem?",
+    "Answers": [
+      "Mars",
+      "Venus",
+      "Jupiter",
+      "Saturn"
+    ],
+    "AnswerIndex": 2
+  }
+]
