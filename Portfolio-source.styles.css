@@ -224,3 +224,16 @@ p[b-18d0fa3f1o] {
     text-align: center;
     margin-bottom: 0px;
 }
+/* /Pages/Todo.razor.rz.scp.css */
+li[b-ehd9165whg] {
+    margin: 0rem;
+}
+
+p[b-ehd9165whg] {
+    margin: 0rem;
+}
+
+.todo-container[b-ehd9165whg] {
+    display: flex;
+    flex-direction: row;
+}
