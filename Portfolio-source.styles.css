@@ -176,8 +176,23 @@ main[b-zdscgksyd7] {
 body[b-p3l66w4kv4] {
 }
 
+.question-image-container[b-p3l66w4kv4] {
+    display: flex;
+    height: 200px;
+    overflow: hidden;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+}
+
 .question-image[b-p3l66w4kv4] {
-    height: 100px;
+    height: 100%;
+    aspect-ratio: 1/1;
+}
+
+.question-text[b-p3l66w4kv4] {
+    width: 100%;
+    text-align: center;
 }
 
 .quiz-btn[b-p3l66w4kv4] {
@@ -186,7 +201,7 @@ body[b-p3l66w4kv4] {
     border-style: none;
     border-radius: 0.5rem;
     display: inline-block;
-    width: 500px;
+    width: 100%;
 }
 
 .neutral-answer-button:hover[b-p3l66w4kv4] {
@@ -204,10 +219,10 @@ body[b-p3l66w4kv4] {
     cursor: default;
 }
 
-.selected-answer-button[b-p3l66w4kv4] {
-    background-color: darkred;
-    outline: solid 0.1rem white;
-    cursor: default;
+.selected-answer-button[b-p3l66w4kv4],
+.selected-answer-button:active[b-p3l66w4kv4],
+.selected-answer-button:focus[b-p3l66w4kv4] {
+    outline: solid 0.2rem white;
 }
 /* /Pages/TicTacToe.razor.rz.scp.css */
 p[b-18d0fa3f1o] {
@@ -223,11 +238,6 @@ p[b-18d0fa3f1o] {
     display: grid;
     justify-content: center;
     row-gap: 1rem;
-}
-
-.page-header[b-18d0fa3f1o] {
-    font-size: 4rem;
-    text-align: center;
 }
 
 .game-grid[b-18d0fa3f1o] {
@@ -263,14 +273,46 @@ p[b-18d0fa3f1o] {
 }
 /* /Pages/Todo.razor.rz.scp.css */
 li[b-ehd9165whg] {
-    margin: 0rem;
+    margin: 10px;
+    height: 2rem;
+    border: none;
+    align-content: center
 }
 
 p[b-ehd9165whg] {
     margin: 0rem;
 }
 
+b[b-ehd9165whg] {
+    margin: 0px;
+    padding: 0.2rem;
+}
+
 .todo-container[b-ehd9165whg] {
     display: flex;
-    flex-direction: row;
+    margin: 0.1rem;
+}
+
+.todo-list-item[b-ehd9165whg]{
+    margin: 0px;
+}
+
+.btn-todo[b-ehd9165whg] {
+    padding: 0.2rem 1rem;
+    border-style: none;
+    border-radius: 0.25rem;
+}
+
+.btn-todo-icon[b-ehd9165whg]{
+    margin: 0px;
+    padding: 0px;
+    width: 2rem;
+}
+
+.btn-todo-check[b-ehd9165whg] {
+    background-color: hsl(153, 100%, 35%);
+}
+
+.btn-todo-trash[b-ehd9165whg]{
+    background-color: hsl(350, 75%, 60%);
 }

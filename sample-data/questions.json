@@ -1,6 +1,5 @@
 ﻿[
   {
-    "ImageURL": "",
     "Question": "Was ist die Hauptstadt von Deutschland?",
     "Answers": [
       "Berlin",
@@ -8,10 +7,11 @@
       "Hamburg",
       "Köln"
     ],
-    "AnswerIndex": 0
+    "AnswerIndex": 0,
+    "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/8/8c/DEU_Berlin_COA.svg",
+    "ImageSource": "Quelle: Wikipedia | Lizenz: Public Domain"
   },
   {
-    "ImageURL": "",
     "Question": "Welches Element hat das chemische Symbol 'O'?",
     "Answers": [
       "Gold",
@@ -19,10 +19,11 @@
       "Silber",
       "Eisen"
     ],
-    "AnswerIndex": 1
+    "AnswerIndex": 1,
+    "ImageURL": "",
+    "ImageSource": ""
   },
   {
-    "ImageURL": "",
     "Question": "Welcher Planet ist der größte im Sonnensystem?",
     "Answers": [
       "Mars",
@@ -30,6 +31,8 @@
       "Jupiter",
       "Saturn"
     ],
-    "AnswerIndex": 2
+    "AnswerIndex": 2,
+    "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Jupiter_OPAL_2024.png",
+    "ImageSource": "Quelle: Wikipedia / NASA | Lizenz: Public Domain"
   }
 ]
