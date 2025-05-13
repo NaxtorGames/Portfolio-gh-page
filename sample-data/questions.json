@@ -15,13 +15,13 @@
     "Question": "Welches Element hat das chemische Symbol 'O'?",
     "Answers": [
       "Gold",
-      "Oxygen",
+      "Wasserstoff",
       "Silber",
       "Eisen"
     ],
     "AnswerIndex": 1,
-    "ImageURL": "",
-    "ImageSource": ""
+    "ImageURL": "https://cdn.pixabay.com/photo/2022/02/23/05/51/chemistry-7030100_1280.jpg",
+    "ImageSource": "Quelle: Pixabay | Lizenz: Pixabay-Inhaltslizenz | Author: geralt"
   },
   {
     "Question": "Welcher Planet ist der größte im Sonnensystem?",

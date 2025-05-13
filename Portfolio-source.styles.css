@@ -3,8 +3,47 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  background-color: hsl(0, 0%, 16%);
-  color: white;
+}
+
+.page-dark[b-zdscgksyd7] {
+    background-color: hsl(0, 0%, 16%);
+    color: white;
+}
+
+.page-light[b-zdscgksyd7] {
+    background-color: white;
+    color: black;
+}
+
+.btn-mode-toggle[b-zdscgksyd7] {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 48px;
+    width: 48px;
+    border: solid 2px transparent;
+    border-radius: 16px;
+    transition: border-color 0.4s;
+}
+
+.btn-mode-light[b-zdscgksyd7] {
+    background-color: hsl(0,0%,16%);
+    color: white;
+}
+
+.btn-mode-light:hover[b-zdscgksyd7]{
+    border-color: var(--accent-blue-light);
+    background-color: hsl(0,0%,30%);
+}
+
+.btn-mode-dark[b-zdscgksyd7] {
+    background-color: white;
+    color: black;
+}
+
+.btn-mode-dark:hover[b-zdscgksyd7] {
+    border-color: var(--accent-blue-light);
+    background-color: hsl(0,0%,80%);
 }
 
 main[b-zdscgksyd7] {
@@ -187,7 +226,10 @@ body[b-p3l66w4kv4] {
 
 .question-image[b-p3l66w4kv4] {
     height: 100%;
-    aspect-ratio: 1/1;
+}
+
+.image-border[b-p3l66w4kv4] {
+    border-radius: 8px;
 }
 
 .question-text[b-p3l66w4kv4] {
@@ -195,7 +237,7 @@ body[b-p3l66w4kv4] {
     text-align: center;
 }
 
-.quiz-btn[b-p3l66w4kv4] {
+.btn-quiz[b-p3l66w4kv4] {
     padding: 0.5rem;
     margin: 0.2rem 0rem;
     border-style: none;
@@ -204,25 +246,31 @@ body[b-p3l66w4kv4] {
     width: 100%;
 }
 
-.neutral-answer-button:hover[b-p3l66w4kv4] {
+.btn-answer-neutral:hover[b-p3l66w4kv4] {
     outline: solid 0.1rem white;
 }
 
-.correct-answer-button[b-p3l66w4kv4] {
+.btn-answer-correct[b-p3l66w4kv4] {
     background-color: mediumseagreen;
     text-shadow: 0.05rem 0.05rem rgba(10,10,10,33%);
     cursor: default;
 }
 
-.wrong-answer-button[b-p3l66w4kv4] {
+.btn-answer-wrong[b-p3l66w4kv4] {
     background-color: indianred;
     cursor: default;
 }
 
-.selected-answer-button[b-p3l66w4kv4],
-.selected-answer-button:active[b-p3l66w4kv4],
-.selected-answer-button:focus[b-p3l66w4kv4] {
+.btn-answer-selected-dark[b-p3l66w4kv4],
+.btn-answer-selected-dark:active[b-p3l66w4kv4],
+.btn-answer-selected-dark:focus[b-p3l66w4kv4] {
     outline: solid 0.2rem white;
+}
+
+.btn-answer-selected-light[b-p3l66w4kv4],
+.btn-answer-selected-light:active[b-p3l66w4kv4],
+.btn-answer-selected-light:focus[b-p3l66w4kv4] {
+    outline: solid 0.2rem hsl(0,0%,16%);
 }
 /* /Pages/TicTacToe.razor.rz.scp.css */
 p[b-18d0fa3f1o] {
