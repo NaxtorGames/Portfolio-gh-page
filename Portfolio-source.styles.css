@@ -1,8 +1,14 @@
 /* /Layout/MainLayout.razor.rz.scp.css */
 .page[b-zdscgksyd7] {
-  position: relative;
-  display: flex;
-  flex-direction: column;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container[b-zdscgksyd7] {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .page-dark[b-zdscgksyd7] {
@@ -32,102 +38,94 @@
     color: white;
 }
 
-.btn-mode-light:hover[b-zdscgksyd7]{
-    border-color: var(--accent-blue-light);
-    background-color: hsl(0,0%,30%);
-}
+    .btn-mode-light:hover[b-zdscgksyd7] {
+        border-color: var(--accent-blue-light);
+        background-color: hsl(0,0%,30%);
+    }
 
 .btn-mode-dark[b-zdscgksyd7] {
     background-color: white;
     color: black;
 }
 
-.btn-mode-dark:hover[b-zdscgksyd7] {
-    border-color: var(--accent-blue-light);
-    background-color: hsl(0,0%,80%);
-}
+    .btn-mode-dark:hover[b-zdscgksyd7] {
+        border-color: var(--accent-blue-light);
+        background-color: hsl(0,0%,80%);
+    }
 
 main[b-zdscgksyd7] {
-  flex: 1;
+    flex: 1;
 }
 
 .sidebar[b-zdscgksyd7] {
-  background-image: linear-gradient(
-    45deg,
-    var(--accent-blue) 0%,
-    var(--accent-red) 100%
-  );
+    background-image: linear-gradient( 45deg, var(--accent-blue) 0%, var(--accent-red) 100% );
 }
 
 .top-row-main[b-zdscgksyd7] {
-  background-image: linear-gradient(
-    225deg,
-    var(--accent-blue) 60%,
-    var(--accent-red) 100%
-  );
-  justify-content: flex-end;
-  height: var(--nav-bar-height);
-  display: flex;
-  align-items: center;
+    background-image: linear-gradient( 225deg, var(--accent-blue) 60%, var(--accent-red) 100% );
+    justify-content: flex-end;
+    height: var(--nav-bar-height);
+    display: flex;
+    align-items: center;
 }
 
-.top-row-main[b-zdscgksyd7]  a,
-.top-row-main[b-zdscgksyd7]  .btn-link {
-  white-space: nowrap;
-  margin-left: 1.5rem;
-  text-decoration: none;
-}
+    .top-row-main[b-zdscgksyd7]  a,
+    .top-row-main[b-zdscgksyd7]  .btn-link {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+        text-decoration: none;
+    }
 
-.top-row-main[b-zdscgksyd7]  a:hover,
-.top-row-main[b-zdscgksyd7]  .btn-link:hover {
-  text-decoration: underline;
-}
+        .top-row-main[b-zdscgksyd7]  a:hover,
+        .top-row-main[b-zdscgksyd7]  .btn-link:hover {
+            text-decoration: underline;
+        }
 
-.top-row-main[b-zdscgksyd7]  a:first-child {
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
+        .top-row-main[b-zdscgksyd7]  a:first-child {
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
 
 @media (max-width: 640.98px) {
-  .top-row-main[b-zdscgksyd7] {
-    justify-content: space-between;
-  }
+    .top-row-main[b-zdscgksyd7] {
+        justify-content: space-between;
+    }
 
-  .top-row-main[b-zdscgksyd7]  a,
-  .top-row-main[b-zdscgksyd7]  .btn-link {
-    margin-left: 0;
-  }
+        .top-row-main[b-zdscgksyd7]  a,
+        .top-row-main[b-zdscgksyd7]  .btn-link {
+            margin-left: 0;
+        }
 }
 
 @media (min-width: 641px) {
-  .page[b-zdscgksyd7] {
-    flex-direction: row;
-  }
+    .page[b-zdscgksyd7] {
+        flex-direction: row;
+    }
 
-  .sidebar[b-zdscgksyd7] {
-    width: 250px;
-    height: 100vh;
-    position: sticky;
-    top: 0;
-  }
+    .sidebar[b-zdscgksyd7] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
 
-  .top-row-main[b-zdscgksyd7] {
-    position: sticky;
-    top: 0;
-    z-index: 1;
-  }
+    .top-row-main[b-zdscgksyd7] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
 
-  .top-row-main.auth[b-zdscgksyd7]  a:first-child {
-    flex: 1;
-    text-align: right;
-    width: 0;
-  }
+        .top-row-main.auth[b-zdscgksyd7]  a:first-child {
+            flex: 1;
+            text-align: right;
+            width: 0;
+        }
 
-  .top-row-main[b-zdscgksyd7],
-  article[b-zdscgksyd7] {
-    padding-left: 2rem !important;
-    padding-right: 1.5rem !important;
-  }
+    .top-row-main[b-zdscgksyd7],
+    article[b-zdscgksyd7] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
 }
 /* /Layout/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-cvbgznwllv] {
@@ -149,7 +147,6 @@ main[b-zdscgksyd7] {
 .bi[b-cvbgznwllv] {
   display: flex;
   position: relative;
-  vertical-align: center;
   align-items: center;
   width: 1.75rem;
   background-size: cover;
@@ -389,7 +386,7 @@ b[b-ehd9165whg] {
 }
 
 .todo-input[b-ehd9165whg] {
-    width: 500px;
+    display: inline-flex;
     padding: 0.2rem 0.5rem;
     border-style: none;
     border-radius: 0.25rem;
