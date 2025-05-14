@@ -24,6 +24,7 @@
     border: solid 2px transparent;
     border-radius: 16px;
     transition: border-color 0.4s;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
 .btn-mode-light[b-zdscgksyd7] {
@@ -284,8 +285,14 @@ p[b-18d0fa3f1o] {
 
 .page-grid[b-18d0fa3f1o] {
     display: grid;
+    row-gap: 8px;
+}
+
+.game-layout[b-18d0fa3f1o] {
+    display: flex;
     justify-content: center;
-    row-gap: 1rem;
+    align-items: flex-start;
+    gap: 16px;
 }
 
 .game-grid[b-18d0fa3f1o] {
@@ -306,7 +313,7 @@ p[b-18d0fa3f1o] {
 }
 
 .game-restart-button[b-18d0fa3f1o] {
-    width: 12.5rem;
+    width: 100%;
     padding: 0rem 0rem;
 }
 
@@ -318,6 +325,24 @@ p[b-18d0fa3f1o] {
     font-size: 4rem;
     text-align: center;
     margin-bottom: 0px;
+}
+
+.game-winner[b-18d0fa3f1o] {
+    color: white;
+    background-color: mediumseagreen;
+    text-shadow: 0.05rem 0.05rem rgba(10,10,10,33%);
+}
+
+.thic-padding[b-18d0fa3f1o] {
+    padding: 16px 16px;
+}
+
+.points-label[b-18d0fa3f1o] {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px;
+    margin-bottom: 8px;
+    font-size: 20px;
 }
 /* /Pages/Todo.razor.rz.scp.css */
 li[b-ehd9165whg] {
@@ -341,8 +366,34 @@ b[b-ehd9165whg] {
     margin: 0.1rem;
 }
 
-.todo-list-item[b-ehd9165whg]{
+.todo-done-container[b-ehd9165whg] {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    width: 100%;
+    gap: 8px
+}
+
+.drop-shadow-contianer[b-ehd9165whg] {
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.33);
+    padding: 4px 8px;
+}
+
+.todo-list-item[b-ehd9165whg] {
     margin: 0px;
+}
+
+.new-task-label[b-ehd9165whg] {
+    display: inline;
+    font-weight: 500;
+    margin-right: 4px;
+}
+
+.todo-input[b-ehd9165whg] {
+    width: 500px;
+    padding: 0.2rem 0.5rem;
+    border-style: none;
+    border-radius: 0.25rem;
+    box-shadow: inset .1rem 0.1rem 4px rgba(0,0,0,0.33);
 }
 
 .btn-todo[b-ehd9165whg] {
@@ -351,7 +402,7 @@ b[b-ehd9165whg] {
     border-radius: 0.25rem;
 }
 
-.btn-todo-icon[b-ehd9165whg]{
+.btn-todo-icon[b-ehd9165whg] {
     margin: 0px;
     padding: 0px;
     width: 2rem;
@@ -361,6 +412,6 @@ b[b-ehd9165whg] {
     background-color: hsl(153, 100%, 35%);
 }
 
-.btn-todo-trash[b-ehd9165whg]{
+.btn-todo-trash[b-ehd9165whg] {
     background-color: hsl(350, 75%, 60%);
 }

@@ -1,14 +1,23 @@
 :root {
-  --accent-blue: hsl(189, 90%, 20%);
-  --accent-blue-light: hsl(189, 90%, 30%);
-  --accent-blue-dark: hsl(189, 90%, 10%);
-  --accent-red: hsl(0, 90%, 35%);
-  --nav-bar-height: 3.75rem;
+    --accent-blue: hsl(189, 90%, 20%);
+    --accent-blue-light: hsl(189, 90%, 30%);
+    --accent-blue-dark: hsl(189, 90%, 10%);
+    --accent-red: hsl(0, 90%, 35%);
+    --nav-bar-height: 3.75rem;
+    --shadow-border-color: rgba(15,15,15,0.5);
+    --shadow-color: rgba(0,0,0,0.5);
 }
 
 html,
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+div {
+    font-family: 'Segoe UI', Arial;
 }
 
 h1:focus {
@@ -23,7 +32,8 @@ a,
 .btn-primary {
   color: #fff;
   background-color: var(--accent-blue);
-  border-color: var(--accent-blue-dark);
+  border-style: none;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.33);
 }
 
 .btn-primary:hover {
@@ -140,4 +150,15 @@ code {
 .form-floating > .form-control-plaintext:focus::placeholder,
 .form-floating > .form-control:focus::placeholder {
   text-align: start;
+}
+
+.hovering-panel {
+    margin: 8px 0px;
+    padding: 4px 8px;
+    border-top: solid 1px var(--shadow-border-color);
+    border-bottom: solid 1px var(--shadow-border-color);
+    border-left: solid 1px var(--shadow-border-color);
+    border-right: solid 1px var(--shadow-border-color);
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px var(--shadow-color);
 }
