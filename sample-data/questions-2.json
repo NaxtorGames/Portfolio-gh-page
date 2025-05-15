@@ -1,0 +1,122 @@
+﻿[
+ {
+    "Question": "Was ist die Hauptstadt von Deutschland?",
+    "Answers": [
+      "Berlin",
+      "München",
+      "Hamburg",
+      "Köln"
+    ],
+    "AnswerIndex": 0,
+    "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/8/8c/DEU_Berlin_COA.svg",
+    "ImageSource": "Quelle: Wikipedia | Lizenz: Public Domain"
+  },
+  {
+    "Question": "Welches Element hat das chemische Symbol 'O'?",
+    "Answers": [
+      "Gold",
+      "Wasserstoff",
+      "Silber",
+      "Eisen"
+    ],
+    "AnswerIndex": 1,
+    "ImageURL": "https://cdn.pixabay.com/photo/2022/02/23/05/51/chemistry-7030100_1280.jpg",
+    "ImageSource": "Quelle: Pixabay | Lizenz: Pixabay-Inhaltslizenz | Author: geralt"
+  },
+  {
+    "Question": "Welcher Planet ist der größte im Sonnensystem?",
+    "Answers": [
+      "Mars",
+      "Venus",
+      "Jupiter",
+      "Saturn"
+    ],
+    "AnswerIndex": 2,
+    "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Jupiter_OPAL_2024.png",
+    "ImageSource": "Quelle: Wikipedia / NASA | Lizenz: Public Domain"
+  },
+ {
+    "Question": "Louis Armstrong gelangte zu Weltruhm als ...?",
+    "Answers": [
+      "Erster Mensch auf dem Mond",
+      "Filmstar",
+      "Jazztrompeter",
+      "Radrennfahrer"
+    ],
+    "AnswerIndex": 2,
+    "ImageURL": "",
+    "ImageSource": ""
+  },
+ {
+    "Question": "Welcher der folgenden Künstler ist kein Komponist?",
+    "Answers": [
+      "Johannes Brahms",
+      "Frédéric Chopin",
+      "Giuseppe Verdi",
+      "Vincent van Gogh"
+    ],
+    "AnswerIndex": 3,
+    "ImageURL": "",
+    "ImageSource": ""
+  },
+ {
+    "Question": "Welche ist die brückenreichste Stadt Europas?",
+    "Answers": [
+      "Amsterdam",
+      "Hamburg",
+      "London",
+      "Venedig"
+    ],
+    "AnswerIndex": 1,
+    "ImageURL": "",
+    "ImageSource": ""
+  },
+  {
+    "Question": "Welcher ist der höchste Berg Deutschlands?",
+    "Answers": [
+      "Zugspitze",
+      "Großglockner",
+      "Matterhorn",
+      "Biberkopf"
+    ],
+    "AnswerIndex": 0,
+    "ImageURL": "../local-images/nature-landscape.jpg",
+    "ImageSource": "Quelle: StockSnap | Lizenz: CC0 | Autor: World Travel Adventures"
+  },
+ {
+    "Question": "Was erfand Alfred Nobel?",
+    "Answers": [
+      "Dynamit",
+      "Antibiotikum",
+      "Kühlschrank",
+      "Armbanduhr"
+    ],
+    "AnswerIndex": 0,
+    "ImageURL": "",
+    "ImageSource": ""
+  },
+ {
+    "Question": "Was bedeutet dieses Piktogramm?",
+    "Answers": [
+      "Verein deutscher Ernährungsberater",
+      "Vereidigte Dienstleister im Estrichgewerbe",
+      "Vergesellschaftung des Eigentums",
+      "Verband der Elektrotechnik"
+    ],
+    "AnswerIndex": 3,
+    "ImageURL": "",
+    "ImageSource": ""
+  },
+ {
+    "Question": "Wer schrieb den \"Faust\"?",
+    "Answers": [
+      "Heinrich Mann",
+      "Johann Wolfgang von Goethe",
+      "Friedrich Schiller",
+      "Thomas Mann"
+    ],
+    "AnswerIndex": 1,
+    "ImageURL": "",
+    "ImageSource": ""
+  }
+]

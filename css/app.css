@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../fonts/segoe-ui.woff2') format('woff2'), url('../fonts/segoe-ui.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root {
     --accent-blue: hsl(189, 90%, 20%);
     --accent-blue-light: hsl(189, 90%, 30%);
@@ -8,16 +15,13 @@
     --shadow-color: rgba(0,0,0,0.5);
 }
 
-html,
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
 h1,
 h2,
 h3,
-div {
-    font-family: 'Segoe UI', Arial;
+div,
+html,
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
 }
 
 h1:focus {
