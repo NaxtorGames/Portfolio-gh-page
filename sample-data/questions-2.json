@@ -44,7 +44,7 @@
       "Radrennfahrer"
     ],
     "AnswerIndex": 2,
-    "ImageURL": "",
+    "ImageURL": "local-images/unknown-person.webp",
     "ImageSource": ""
   },
  {
@@ -80,7 +80,7 @@
       "Biberkopf"
     ],
     "AnswerIndex": 0,
-    "ImageURL": "../local-images/nature-landscape.jpg",
+    "ImageURL": "local-images/nature-landscape.jpg",
     "ImageSource": "Quelle: StockSnap | Lizenz: CC0 | Autor: World Travel Adventures"
   },
  {
