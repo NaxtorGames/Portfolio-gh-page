@@ -1,5 +1,5 @@
 ﻿[
- {
+  {
     "Question": "Was ist die Hauptstadt von Deutschland?",
     "Answers": [
       "Berlin",
@@ -8,8 +8,8 @@
       "Köln"
     ],
     "AnswerIndex": 0,
-    "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/8/8c/DEU_Berlin_COA.svg",
-    "ImageSource": "Quelle: Wikipedia | Lizenz: Public Domain"
+    "ImageURL": "local-images/berlin-cathedral.webp",
+    "ImageSource": "Quelle: backiee | Lizenz: CC0 | Autor: Quentin"
   },
   {
     "Question": "Welches Element hat das chemische Symbol 'O'?",
@@ -35,7 +35,7 @@
     "ImageURL": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Jupiter_OPAL_2024.png",
     "ImageSource": "Quelle: Wikipedia / NASA | Lizenz: Public Domain"
   },
- {
+  {
     "Question": "Louis Armstrong gelangte zu Weltruhm als ...?",
     "Answers": [
       "Erster Mensch auf dem Mond",
@@ -44,10 +44,10 @@
       "Radrennfahrer"
     ],
     "AnswerIndex": 2,
-    "ImageURL": "local-images/unknown-person.webp",
+    "ImageURL": "local-images/louis-armstrong-silhouette.webp",
     "ImageSource": ""
   },
- {
+  {
     "Question": "Welcher der folgenden Künstler ist kein Komponist?",
     "Answers": [
       "Johannes Brahms",
@@ -56,10 +56,10 @@
       "Vincent van Gogh"
     ],
     "AnswerIndex": 3,
-    "ImageURL": "",
-    "ImageSource": ""
+    "ImageURL": "local-images/classic-music-notes.webp",
+    "ImageSource": "Quelle: Pexels | Lizenz: CC0 | Autor: Ylanite Koppens"
   },
- {
+  {
     "Question": "Welche ist die brückenreichste Stadt Europas?",
     "Answers": [
       "Amsterdam",
@@ -68,8 +68,8 @@
       "Venedig"
     ],
     "AnswerIndex": 1,
-    "ImageURL": "",
-    "ImageSource": ""
+    "ImageURL": "local-images/drachenschwanzbruecke.webp",
+    "ImageSource": "Quelle: outdooractive | Lizenz: CC BY-SA | Autor: S. Theilig"
   },
   {
     "Question": "Welcher ist der höchste Berg Deutschlands?",
@@ -80,7 +80,7 @@
       "Biberkopf"
     ],
     "AnswerIndex": 0,
-    "ImageURL": "local-images/nature-landscape.jpg",
+    "ImageURL": "local-images/nature-landscape.webp",
     "ImageSource": "Quelle: StockSnap | Lizenz: CC0 | Autor: World Travel Adventures"
   },
  {
@@ -92,8 +92,8 @@
       "Armbanduhr"
     ],
     "AnswerIndex": 0,
-    "ImageURL": "",
-    "ImageSource": ""
+    "ImageURL": "local-images/alfred-nobel.webp",
+    "ImageSource": "Quelle: Wikipedia | Lizenz: Public Domain"
   },
  {
     "Question": "Was bedeutet dieses Piktogramm?",
@@ -104,10 +104,10 @@
       "Verband der Elektrotechnik"
     ],
     "AnswerIndex": 3,
-    "ImageURL": "",
-    "ImageSource": ""
+    "ImageURL": "local-images/vde-logo.webp",
+    "ImageSource": "Quelle: Seek Logo"
   },
- {
+  {
     "Question": "Wer schrieb den \"Faust\"?",
     "Answers": [
       "Heinrich Mann",
@@ -116,7 +116,7 @@
       "Thomas Mann"
     ],
     "AnswerIndex": 1,
-    "ImageURL": "",
-    "ImageSource": ""
+    "ImageURL": "local-images/teufelspakt-simm.webp",
+    "ImageSource": "Quelle: Goethezeitportal | Lizenz: Non-Commercial"
   }
 ]
