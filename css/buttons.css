@@ -1,0 +1,53 @@
+﻿.btn-main {
+  border-style: none;
+  border-radius: 0.25rem;
+  box-shadow: 2px 2px 4px var(--shadow);
+  text-shadow: 0.05rem 0.05rem 0.05rem var(--shadow);
+  cursor: pointer;
+  transition: background-color var(--transition-time) var(--transition-style), border-color var(--transition-time) var(--transition-style);
+}
+
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem var(--primary-blue);
+}
+
+.btn-main:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-primary {
+  color: var(--font-light);
+  background-color: var(--primary-blue);
+}
+
+  .btn-primary:hover {
+    background-color: var(--primary-blue-hover);
+  }
+
+.btn-confirm {
+  color: var(--font-light);
+  background-color: var(--action-confirm);
+}
+
+  .btn-confirm:hover {
+    background-color: var(--action-confirm-hover);
+  }
+
+.btn-danger {
+  color: var(--font-light);
+  background-color: var(--action-danger);
+}
+
+  .btn-danger:hover {
+    background-color: var(--action-danger-hover);
+  }
+
+.btn-icon-only {
+  height: fit-content;
+  min-width: 1.5rem;
+  padding: 0px;
+  font-size: 1rem;
+}

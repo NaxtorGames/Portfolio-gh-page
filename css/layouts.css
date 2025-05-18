@@ -1,0 +1,15 @@
+﻿.hovering-panel {
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  border-top: solid 1px var(--border-shadow);
+  border-bottom: solid 1px var(--border-shadow);
+  border-left: solid 1px var(--border-shadow);
+  border-right: solid 1px var(--border-shadow);
+  border-radius: 8px;
+  box-shadow: 4px 4px 4px var(--shadow);
+}
+
+.thin-line {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}

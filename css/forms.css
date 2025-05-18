@@ -1,0 +1,21 @@
+﻿.input-main {
+  display: flex;
+  height: 2rem;
+  padding: 0.2rem 0.5rem;
+  border-style: none;
+  border-radius: 0.25rem;
+  box-shadow: inset .1rem 0.1rem 4px var(--shadow-light);
+  outline: 0.15rem solid;
+  outline-color: transparent;
+  transition: outline var(--transition-time);
+}
+
+  .input-main:focus,
+  .input-main:active {
+    outline-color: var(--primary-blue);
+  }
+
+  .invalid-input {
+    background-color: var(--action-danger-light);
+    color: var(--font-dark);
+  }

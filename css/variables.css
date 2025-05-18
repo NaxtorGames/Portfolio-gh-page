@@ -1,0 +1,27 @@
+﻿:root {
+  --nav-bar-height: 3.75rem;
+  --transition-time: 0.2s;
+  --transition-style: ease-in-out;
+  /*Colors*/
+  --bg-light: hsl(0, 0%, 100%);
+  --bg-light-hover: hsl(0, 0%, 95%);
+  --bg-dark: hsl(0, 0%, 20%);
+  --bg-dark-hover: hsl(0, 0%, 30%);
+  --font-light: hsl(0,0%,95%);
+  --font-dark: hsl(0,0%,10%);
+  --primary-blue: hsl(189, 90%, 25%);
+  --primary-blue-hover: hsl(189, 90%, 35%);
+  --primary-red: hsl(0, 90%, 35%);
+  --primary-red-hover: hsl(0, 90%, 45%);
+  --action-confirm: hsl(153, 100%, 35%);
+  --action-confirm-hover: hsl(153, 100%, 45%);
+  --action-danger: hsl(350, 75%, 50%);
+  --action-danger-hover: hsl(350, 75%, 60%);
+  --action-danger-light: hsl(350, 75%, 80%);
+  --border-shadow: hsla(0, 0%, 6%, 0.5);
+  --shadow: hsla(0, 0%, 0%, 0.5);
+  --shadow-light: hsla(0, 0%, 0%, 0.33);
+  /*Progressbar*/
+  --progress-bar-container-height: 1.8rem;
+  --progress-bar-border-radius: calc(var(--progress-bar-container-height) / 2.0);
+}
