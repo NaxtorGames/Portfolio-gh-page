@@ -3,8 +3,8 @@
   --transition-time: 0.2s;
   --transition-style: ease-in-out;
   /*Colors*/
-  --bg-light: hsl(0, 0%, 100%);
-  --bg-light-hover: hsl(0, 0%, 95%);
+  --bg-light: hsl(0, 0%, 95%);
+  --bg-light-hover: hsl(0, 0%, 98%);
   --bg-dark: hsl(0, 0%, 20%);
   --bg-dark-hover: hsl(0, 0%, 30%);
   --font-light: hsl(0,0%,95%);
