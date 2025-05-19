@@ -1,0 +1,67 @@
+﻿.overlay-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100dvh;
+  z-index: 990;
+  transition: opacity 0.4s ease-out;
+  background: var(--shadow);
+}
+
+  .overlay-bg.show {
+    opacity: 1;
+    pointer-events: auto;
+    backdrop-filter: blur(2px);
+  }
+
+  .overlay-bg.hide {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+.overlay {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay-content-box {
+  width: fit-content;
+  height: fit-content;
+  background: var(--bg-light);
+  color: var(--font-dark);
+  z-index: 1000;
+}
+
+.overlay-blur {
+  position: absolute;
+  background: var(--shadow);
+}
+
+.btn-overlay-toggle {
+  position: absolute;
+  top: 16px;
+  right: 72px;
+  height: 48px;
+  width: 48px;
+  border-radius: 25%;
+  z-index: 5000;
+  background: var(--bg-light);
+  color: var(--font-dark);
+  transition: border var(--transition-time) var(--transition-style);
+}
+
+.btn-overlay-toggle:hover{
+  border: 2px solid var(--primary-blue);
+}
+
+@media (max-width: 640.98px) {
+  .overlay-bg{
+    min-height: calc(100dvh - var(--nav-bar-height));
+  }
+}
