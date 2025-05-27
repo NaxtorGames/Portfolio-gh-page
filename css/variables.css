@@ -1,6 +1,6 @@
 ﻿:root {
   --nav-bar-height: 3.75rem;
-  --transition-time: 0.2s;
+  --transition-time: 0.4s;
   --transition-style: ease-in-out;
   /*Colors*/
   --bg-light: hsl(0, 0%, 95%);

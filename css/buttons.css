@@ -53,3 +53,14 @@
   padding: 0px;
   font-size: 1rem;
 }
+
+.btn-big-toggle {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 25%;
+  border: solid 2px transparent;
+  z-index: 5000;
+}
