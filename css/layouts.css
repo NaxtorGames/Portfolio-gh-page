@@ -12,3 +12,27 @@
   margin-top: 1px;
   margin-bottom: 1px;
 }
+
+.text-link {
+  color: var(--primary-blue);
+  word-break: keep-all;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+  .text-link:hover {
+    color: var(--primary-blue-hover);
+    text-decoration: underline;
+  }
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.25rem;
+  padding: 1.5rem;
+  height: fit-content;
+}
+
+.text-block {
+  margin-bottom: 2rem;
+}

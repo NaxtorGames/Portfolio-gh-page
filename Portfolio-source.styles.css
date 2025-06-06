@@ -133,7 +133,7 @@ main[b-zdscgksyd7] {
       text-overflow: ellipsis;
     }
 
-@media (max-width: 640.98px) {
+@media (max-width: 839.98px) {
   .sidebar[b-zdscgksyd7] {
     background: var(--primary-blue);
   }
@@ -148,7 +148,7 @@ main[b-zdscgksyd7] {
     }
 }
 
-@media (min-width: 641px) {
+@media (min-width: 840px) {
   .page[b-zdscgksyd7] {
     flex-direction: row;
   }
@@ -271,7 +271,7 @@ main[b-zdscgksyd7] {
   margin: 0;
 }
 
-@media (max-width: 640.98px) {
+@media (max-width: 839.98px) {
   .nav-scrollable[b-cvbgznwllv] {
     position: absolute;
     width: 100%;
@@ -288,7 +288,7 @@ main[b-zdscgksyd7] {
   }
 }
 
-@media (min-width: 641px) {
+@media (min-width: 840px) {
   .btn-navbar[b-cvbgznwllv] {
     display: none;
   }
@@ -305,28 +305,19 @@ main[b-zdscgksyd7] {
   }
 }
 /* /Pages/Home.razor.rz.scp.css */
-.text-link[b-ez6h3agx99] {
-  color: var(--primary-blue);
-  word-break: keep-all;
-  text-decoration: none;
-  font-weight: 700;
-}
-
-  .text-link:hover[b-ez6h3agx99] {
-    color: var(--primary-blue-hover);
-    text-decoration: underline;
-  }
-
-.text-container[b-ez6h3agx99] {
+.page-container[b-ez6h3agx99] {
   display: flex;
-  flex-direction: column;
-  font-size: 1.5rem;
-  padding: 1.5rem;
-  height: fit-content;
+  flex-direction: row;
+  gap: 1rem;
 }
 
-.text-block[b-ez6h3agx99] {
-  margin-bottom: 2rem;
+.image-row[b-ez6h3agx99] {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-width: 25%;
+  max-width: 150px;
+  justify-content: stretch;
 }
 
 .image-container[b-ez6h3agx99] {
@@ -359,7 +350,7 @@ main[b-zdscgksyd7] {
   transform: scale(1.1);
 }
 
-.knowlege-panel[b-ez6h3agx99] {
+.knowledge-panel[b-ez6h3agx99] {
   position: absolute;
   padding: 1rem;
   top: 0;
@@ -373,19 +364,25 @@ main[b-zdscgksyd7] {
   background: var(--shadow);
 }
 
-.image-container:hover .knowlege-panel[b-ez6h3agx99] {
+.image-container:hover .knowledge-panel[b-ez6h3agx99] {
   opacity: 1;
 }
 
-.knowlege-info[b-ez6h3agx99] {
+.knowledge-info[b-ez6h3agx99] {
   transform: translate(0, 100%);
   width: 100%;
   transition: transform var(--transition-time);
   pointer-events: none;
 }
 
-.image-container:hover .knowlege-info[b-ez6h3agx99] {
+.image-container:hover .knowledge-info[b-ez6h3agx99] {
   transform: translate(0,0);
+}
+
+@media (max-width: 839.9px) {
+  .image-row[b-ez6h3agx99] {
+    display: none;
+  }
 }
 /* /Pages/Quiz.razor.rz.scp.css */
 .question-image-container[b-p3l66w4kv4] {
