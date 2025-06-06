@@ -207,8 +207,12 @@ main[b-zdscgksyd7] {
 .navbar-brand[b-cvbgznwllv] {
   font-size: 2rem;
   font-weight: 200;
+  font-weight: 400;
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .bi[b-cvbgznwllv] {
